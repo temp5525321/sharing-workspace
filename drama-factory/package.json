@@ -1,0 +1,16 @@
+{
+  "name": "drama-factory",
+  "version": "1.0.0",
+  "description": "막장 드라마 에피소드 자동 생성 시스템",
+  "scripts": {
+    "crawl": "node crawl.js",
+    "select": "node server.js",
+    "script": "node generate-script.js",
+    "video": "node generate-video.js",
+    "post": "node post-process.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0"
+  }
+}

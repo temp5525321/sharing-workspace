@@ -1,0 +1,7 @@
+.env
+node_modules/
+data/stories.json
+data/selected.json
+data/scripts/
+videos/
+node_modules/
